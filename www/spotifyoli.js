@@ -2,6 +2,6 @@
 
 module.exports = {
     greet: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "Spotifyoli", "greet", [name]);
+        cordova.exec(successCallback, errorCallback, "spotifyoli", "greet", [name]);
     }
 };
