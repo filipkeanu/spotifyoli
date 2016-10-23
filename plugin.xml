@@ -18,12 +18,12 @@
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Spotifyoli">
-        <param name="android-package" value="com.oliviafil.plugin.Spotifyoli"/>
+      <feature name="spotifyoli">
+        <param name="android-package" value="com.oliviafil.spotify.spotifyoli"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/spotifyoli.java" target-dir="src/com/oliviafil/plugin/"/>
+    <source-file src="src/android/spotifyoli.java" target-dir="src/com/oliviafil/spotify/"/>
   </platform>
 
 </plugin>
