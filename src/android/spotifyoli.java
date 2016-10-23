@@ -1,10 +1,10 @@
-package com.oliviafil.plugin;
+package com.oliviafil.spotify;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class Spotifyoli extends CordovaPlugin {
+public class spotifyoli extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
